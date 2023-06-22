@@ -1,7 +1,7 @@
 # Minesweeper
 CIS 1200 Game Project
 
-**Core Concepts**\
+**Core Concepts**
   1. 2D Arrays
      I used a 2d array of type Cell to represent the game board, with each element representing a square in the grid. I think this is an
      appropriate use of a 2d array because it is convenient to iterate through the board and access each individual Cell using nested for
