@@ -26,28 +26,20 @@ CIS 1200 Game Project
      repeat the process for each new empty square revealed, spreading outwards until there are no more new empty cells.
 
 **Classes:**\
-Cell\
-An interface implemented by EmptyCell, NumberCell, and MineCell. I created this so I could put the three different types of cells into the 
+Cell - An interface implemented by EmptyCell, NumberCell, and MineCell. I created this so I could put the three different types of cells into the 
 same 2d array.
 
-EmptyCell\
-A class that implements Cell; represents a cell that has no adjacent mines; drawn as a black square
+EmptyCell - A class that implements Cell; represents a cell that has no adjacent mines; drawn as a black square
 
-NumberCell\
-A class that implements Cell; represents a cell that has a certain number of adjacent mines; drawn as a number (val)
+NumberCell - A class that implements Cell; represents a cell that has a certain number of adjacent mines; drawn as a number (val)
 
-MineCell\
-Aclass that implements Cell; represents a cell that contains a mine; drawn as a circle
+MineCell - A class that implements Cell; represents a cell that contains a mine; drawn as a circle
 
-Minesweeper\
-A model for the game; contains most of the game's logic, including code for resetting the game board, initializing a new board based on the 
+Minesweeper - A model for the game; contains most of the game's logic, including code for resetting the game board, initializing a new board based on the 
 location of a first click, revealing cells after each click/turn, and checking whether the player has won
 
-GameBoard\
-A class that contains most of the controller and view functionality, including code for handling mouse clicks, resetting the game, updating the status and count JLabels, and repainting the board.
+GameBoard - A class that contains most of the controller and view functionality, including code for handling mouse clicks, resetting the game, updating the status and count JLabels, and repainting the board.
 
-RunMinesweeper\
-A class that initializes the view and implements a bit of controller functionality; contains code that displays the frame and widgets (status panel, count panel, game board, reset button), as well as the instructions
+RunMinesweeper - A class that initializes the view and implements a bit of controller functionality; contains code that displays the frame and widgets (status panel, count panel, game board, reset button), as well as the instructions
 
-GameTest\
-Contains tests for EmptyCell, NumberCell, MineCell, Minesweeper, and GameBoard classes
+GameTest - Contains tests for EmptyCell, NumberCell, MineCell, Minesweeper, and GameBoard classes
